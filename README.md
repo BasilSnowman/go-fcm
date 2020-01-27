@@ -1,8 +1,8 @@
 # go-fcm for FCM HTTP v1 API
 
-[![GoDoc](https://godoc.org/github.com/tevjef/go-fcm?status.svg)](https://godoc.org/github.com/tevjef/go-fcm)
-[![Build Status](https://travis-ci.org/tevjef/go-fcm.svg?branch=master)](https://travis-ci.org/tevjef/go-fcm)
-[![Go Report Card](https://goreportcard.com/badge/github.com/tevjef/go-fcm)](https://goreportcard.com/report/github.com/tevjef/go-fcm)
+[![GoDoc](https://godoc.org/github.com/BasilSnowman/go-fcm?status.svg)](https://godoc.org/github.com/BasilSnowman/go-fcm)
+[![Build Status](https://travis-ci.org/BasilSnowman/go-fcm.svg?branch=master)](https://travis-ci.org/BasilSnowman/go-fcm)
+[![Go Report Card](https://goreportcard.com/badge/github.com/BasilSnowman/go-fcm)](https://goreportcard.com/report/github.com/BasilSnowman/go-fcm)
 
 Golang client library for [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/) v1 API.
 
@@ -20,7 +20,7 @@ With this library, you:
 ### Usage
 
 ```bash
-go install github.com/tevjef/go-fcm/cmd/fcm-send
+go install github.com/BasilSnowman/go-fcm/cmd/fcm-send
 
 ```
 
@@ -55,7 +55,7 @@ GLOBAL OPTIONS:
 ### Usage
 
 ```bash
-go get github.com/tevjef/go-fcm
+go get github.com/BasilSnowman/go-fcm
 
 ```
 
@@ -66,7 +66,7 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/tevjef/go-fcm"
+	"github.com/BasilSnowman/go-fcm"
 )
 
 func main() {
